@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" android:installLocation="internalOnly" package="hrd.quiz" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <application android:icon="@drawable/icon" android:label="CG QUIZ" android:theme="@style/LightTheme">
+        <activity android:label="CG QUIZ" android:launchMode="singleTop" android:name=".main" android:screenOrientation="unspecified" android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="CG QUIZ" android:launchMode="singleTop" android:name=".fpage" android:screenOrientation="unspecified" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="CG QUIZ" android:launchMode="singleTop" android:name=".mainquiz" android:screenOrientation="unspecified" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="CG QUIZ" android:launchMode="singleTop" android:name=".finalp" android:screenOrientation="unspecified" android:windowSoftInputMode="stateHidden"/>
+        <service android:name=".starter"/>
+        <receiver android:name=".starter$starter_BR"/>
+    </application>
+</manifest>
