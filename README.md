@@ -5,7 +5,7 @@
 
 ## Features
 
-- Made from Scratch in less than 20 HOURS
+- Made from Scratch in less than 18 HOURS
 - Have a True Flavour of CG
 - Is Result of intense hardwork of 2nd Year B.Tech Student
 
